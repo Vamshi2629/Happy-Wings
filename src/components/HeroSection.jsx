@@ -53,7 +53,7 @@ export default function HeroSection({ heroImg, appLogo }) {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="font-brand text-6xl sm:text-7xl md:text-8xl lg:text-9xl mb-8 leading-tight tracking-tighter"
+          className="font-brand-alt text-6xl sm:text-7xl md:text-8xl lg:text-9xl mb-8 leading-tight tracking-tighter"
         >
           <span className="gradient-text-fire">Happy Wings</span>
         </motion.h1>

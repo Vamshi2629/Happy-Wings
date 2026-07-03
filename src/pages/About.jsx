@@ -8,6 +8,7 @@ const timeline = [
   { year: 'Jan 2026', title: 'The Dream Begins', desc: 'The idea for Happy Wings was born — we thought to start bringing the crispiest fried chicken to Siddipet.' },
   { year: 'May 2026', title: 'Recipe Perfection', desc: 'We fixed our plan to start serving premium crispy fried chicken with our perfect secret spice blend.' },
   { year: 'June 29, 2026', title: 'Grand Opening', desc: 'Happy Wings opened its doors at Housing Board Colony, Siddipet. The response has been overwhelming!' },
+  { year: 'July 2026', title: 'Fan Favorite', desc: 'Became the #1 fried chicken spot in Siddipet with thousands of happy customers.' },
 ];
 
 const values = [
@@ -160,9 +161,8 @@ export default function About() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.15 }}
-                className={`relative flex items-start gap-6 mb-10 ${
-                  i % 2 === 0 ? 'sm:flex-row' : 'sm:flex-row-reverse'
-                } flex-row`}
+                className={`relative flex items-start gap-6 mb-10 ${i % 2 === 0 ? 'sm:flex-row' : 'sm:flex-row-reverse'
+                  } flex-row`}
               >
                 {/* Dot */}
                 <div className="absolute left-4 sm:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-brand-red border-4 border-brand-dark z-10 mt-1" />
