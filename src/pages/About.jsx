@@ -20,7 +20,7 @@ const values = [
 
 const stats = [
   { number: '1,000+', label: 'Happy Customers' },
-  { number: '50,000+', label: 'Pieces Served' },
+  { number: '5,000+', label: 'Pieces Served' },
   { number: '4.8', label: 'Average Rating' },
   { number: '7', label: 'Days a Week' },
 ];
