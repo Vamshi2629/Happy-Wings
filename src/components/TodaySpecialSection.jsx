@@ -41,9 +41,9 @@ export default function TodaySpecialSection({ image, title, subtitle, badgeText,
             <p className="text-brand-gray-light text-sm leading-relaxed mb-4">{description}</p>
 
             <div className="flex items-center justify-center lg:justify-start gap-3 mb-6">
-              <span className="font-heading text-4xl text-brand-yellow">{price}</span>
-              <span className="text-brand-gray line-through text-lg">{originalPrice}</span>
-              <span className="badge-spicy">{offerText}</span>
+              <span className="font-heading text-4xl text-brand-yellow">{originalPrice}</span>
+              {/* <span className="text-brand-gray line-through text-lg">{originalPrice}</span> */}
+              {/* <span className="badge-spicy">{offerText}</span> */}
             </div>
 
             <Link to="/menu" className="btn-glow btn-glow-red">
