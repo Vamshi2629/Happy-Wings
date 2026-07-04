@@ -96,7 +96,7 @@ export default function Menu() {
           >
             <p className="font-heading text-xl text-brand-yellow mb-2">🍽️ Order Online or Visit Us</p>
             <p className="text-brand-gray-light text-sm mb-4">
-              We are now available on Zomato for online orders! Or visit our outlet at Housing Board Colony, Siddipet to enjoy our fresh, crispy fried chicken hot out of the fryer.
+              We are now available on <a href="https://www.zomato.com/siddipet/happy-wings-siddipet-locality/order" target="_blank" rel="noopener noreferrer" className="text-brand-red font-semibold hover:underline">Zomato</a> for online orders! Or visit our outlet at Housing Board Colony, Siddipet to enjoy our fresh, crispy fried chicken hot out of the fryer.
             </p>
             <p className="text-brand-orange text-xs font-semibold uppercase tracking-wider">
               ⭐ Complimentary French Fries with every purchase! ⭐

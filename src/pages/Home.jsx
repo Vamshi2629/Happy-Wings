@@ -84,7 +84,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
             {/* Zomato Card */}
             <a
-              href="https://www.zomato.com/siddipet/happy-wings"
+              href="https://www.zomato.com/siddipet/happy-wings-siddipet-locality/order"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-4 bg-[#E23744]/10 border border-[#E23744]/30 hover:bg-[#E23744]/20 hover:border-[#E23744] rounded-2xl px-8 py-5 transition-all duration-300 hover:shadow-[0_0_30px_rgba(226,55,68,0.3)] w-full sm:w-auto"

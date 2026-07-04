@@ -213,7 +213,7 @@ export default function Contact() {
                     <FaInstagram /> Instagram
                   </a>
                   <a
-                    href="https://www.zomato.com/siddipet/happy-wings"
+                    href="https://www.zomato.com/siddipet/happy-wings-siddipet-locality/order"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 bg-[#E23744]/10 border border-[#E23744]/30 rounded-full px-4 py-2.5 text-[#E23744] text-sm hover:bg-[#E23744]/20 transition-all font-medium"

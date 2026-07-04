@@ -95,7 +95,7 @@ export default function FindUsSection() {
 
               {/* Zomato Order Button */}
               <a
-                href="https://www.zomato.com/siddipet/happy-wings"
+                href="https://www.zomato.com/siddipet/happy-wings-siddipet-locality/order"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2.5 w-full py-3 rounded-xl font-semibold text-sm text-white bg-[#E23744] hover:bg-[#c92d38] shadow-[0_4px_20px_rgba(226,55,68,0.4)] hover:shadow-[0_4px_30px_rgba(226,55,68,0.6)] transition-all duration-300"

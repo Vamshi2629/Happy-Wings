@@ -12,13 +12,13 @@ export default function FloatingButtons() {
         transition={{ delay: 1.5, type: 'spring', stiffness: 200 }}
         whileHover={{ scale: 1.15 }}
         whileTap={{ scale: 0.9 }}
-        className="relative w-14 h-14 rounded-full bg-brand-red flex items-center justify-center text-white shadow-[0_4px_20px_rgba(227,24,24,0.5)] hover:shadow-[0_4px_30px_rgba(227,24,24,0.7)] transition-shadow"
+        className="relative w-14 h-14 rounded-full bg-blue-500 flex items-center justify-center text-white shadow-[0_4px_20px_rgba(59,130,246,0.5)] hover:shadow-[0_4px_30px_rgba(59,130,246,0.7)] transition-shadow"
         aria-label="Call us"
         id="floating-call-btn"
       >
         <FaPhoneAlt size={20} />
         {/* Pulse ring */}
-        <span className="absolute inset-0 rounded-full bg-brand-red/30 animate-[pulse-ring_2s_ease-out_infinite]" />
+        <span className="absolute inset-0 rounded-full bg-blue-500/30 animate-[pulse-ring_2s_ease-out_infinite]" />
       </motion.a>
 
       {/* WhatsApp Button */}

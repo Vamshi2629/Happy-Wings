@@ -32,7 +32,7 @@ export default function Footer() {
                 className="w-12 h-12 rounded-full object-cover border-2 border-brand-orange shadow-[0_0_12px_rgba(255,106,0,0.3)]"
               />
               <div className="flex flex-col leading-tight pt-1">
-                <span className="font-brand text-2xl sm:text-3xl gradient-text-fire leading-none">
+                <span className="font-brand-alt text-2xl sm:text-3xl gradient-text-fire leading-none">
                   Happy Wings
                 </span>
                 <span className="text-[0.45rem] sm:text-[0.5rem] text-brand-yellow tracking-[0.1em] sm:tracking-[0.15em] uppercase">
@@ -50,7 +50,7 @@ export default function Footer() {
             </div>
             {/* Zomato Badge */}
             <a
-              href="https://www.zomato.com/siddipet/happy-wings"
+              href="https://www.zomato.com/siddipet/happy-wings-siddipet-locality/order"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#E23744]/10 border border-[#E23744]/30 hover:bg-[#E23744]/20 hover:border-[#E23744]/60 text-[#E23744] text-xs font-semibold px-3 py-2 rounded-full transition-all duration-300 group"
@@ -93,7 +93,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="tel:8121667040" className="flex items-center justify-center sm:justify-start gap-3 text-sm text-brand-gray hover:text-brand-white transition-colors">
-                  <FaPhoneAlt className="text-brand-red shrink-0" />
+                  <FaPhoneAlt className="text-blue-500 shrink-0" />
                   8121667040
                 </a>
               </li>
@@ -139,7 +139,7 @@ export default function Footer() {
                 <FaYoutube size={20} />
               </motion.a>
               <motion.a
-                href="https://www.zomato.com/siddipet/happy-wings"
+                href="https://www.zomato.com/siddipet/happy-wings-siddipet-locality/order"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, rotate: 5 }}
@@ -164,7 +164,7 @@ export default function Footer() {
                 href="tel:8121667040"
                 whileHover={{ scale: 1.2, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                className="w-10 h-10 rounded-full bg-brand-red flex items-center justify-center text-white hover:shadow-[0_0_20px_rgba(227,24,24,0.5)] transition-shadow"
+                className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-shadow"
                 aria-label="Call us"
               >
                 <FaPhoneAlt size={16} />
@@ -180,7 +180,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-3 flex-wrap justify-center">
             <a
-              href="https://www.zomato.com/siddipet/happy-wings"
+              href="https://www.zomato.com/siddipet/happy-wings-siddipet-locality/order"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-[#E23744] text-xs font-semibold hover:text-white transition-colors"

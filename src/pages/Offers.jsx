@@ -43,27 +43,39 @@ export default function Offers() {
       {/* Offers Grid */}
       <section className="pb-20">
         <div className="container-main">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {offersData.map((offer, i) => {
-              const nonFeaturedCount = offersData.filter(o => !o.featured).length;
-              const isLastAndSingle = !offer.featured && i === offersData.length - 1 && nonFeaturedCount % 2 !== 0;
-              return (
-                <OfferCard
-                  key={offer.id}
-                  offer={offer}
-                  index={i}
-                  isLastAndSingle={isLastAndSingle}
-                />
-              );
-            })}
-          </div>
+          {offersData.length > 0 ? (
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {offersData.map((offer, i) => {
+                  const nonFeaturedCount = offersData.filter(o => !o.featured).length;
+                  const isLastAndSingle = !offer.featured && i === offersData.length - 1 && nonFeaturedCount % 2 !== 0;
+                  return (
+                    <OfferCard
+                      key={offer.id}
+                      offer={offer}
+                      index={i}
+                      isLastAndSingle={isLastAndSingle}
+                    />
+                  );
+                })}
+              </div>
 
-          {/* Terms */}
-          <div className="mt-12 text-center">
-            <p className="text-brand-gray text-xs">
-              * Terms & conditions apply. Offers are subject to availability. Cannot be combined with other offers.
-            </p>
-          </div>
+              {/* Terms */}
+              <div className="mt-12 text-center">
+                <p className="text-brand-gray text-xs">
+                  * Terms & conditions apply. Offers are subject to availability. Cannot be combined with other offers.
+                </p>
+              </div>
+            </>
+          ) : (
+            <div className="glass-card max-w-2xl mx-auto p-10 sm:p-12 text-center flex flex-col items-center justify-center border-brand-dark-border mt-8">
+              <span className="text-5xl mb-4 opacity-80">🙏</span>
+              <h3 className="font-heading text-2xl text-brand-white uppercase tracking-wide mb-3">No Active Offers</h3>
+              <p className="text-brand-gray leading-relaxed text-sm sm:text-base">
+                We currently don't have any active offers at the moment. Please check back later, as we regularly update our deals to bring you the best value on our crispy fried chicken!
+              </p>
+            </div>
+          )}
         </div>
       </section>
     </>
