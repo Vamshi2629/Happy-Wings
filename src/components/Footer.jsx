@@ -98,9 +98,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:happywings159@gmail.com" className="flex items-center justify-center sm:justify-start gap-3 text-sm text-brand-gray hover:text-brand-white transition-colors">
+                <a href="mailto:happywings119@gmail.com" className="flex items-center justify-center sm:justify-start gap-3 text-sm text-brand-gray hover:text-brand-white transition-colors">
                   <FaEnvelope className="text-brand-red shrink-0" />
-                  happywings159@gmail.com
+                  happywings119@gmail.com
                 </a>
               </li>
             </ul>

@@ -22,8 +22,8 @@ const contactInfo = [
   {
     icon: <FaEnvelope />,
     title: 'Email Us',
-    details: ['happywings159@gmail.com'],
-    link: 'mailto:happywings159@gmail.com',
+    details: ['happywings119@gmail.com'],
+    link: 'mailto:happywings119@gmail.com',
     color: 'from-brand-yellow to-brand-orange',
   },
   {

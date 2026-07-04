@@ -66,8 +66,8 @@ export default function FindUsSection() {
                   <span className="text-brand-orange text-lg shrink-0 mt-0.5">✉️</span>
                   <div>
                     <p className="text-brand-yellow text-xs font-semibold tracking-widest uppercase mb-1">Email</p>
-                    <a href="mailto:happywings159@gmail.com" className="text-brand-white text-sm hover:text-brand-red transition-colors font-medium">
-                      happywings159@gmail.com
+                    <a href="mailto:happywings119@gmail.com" className="text-brand-white text-sm hover:text-brand-red transition-colors font-medium">
+                      happywings119@gmail.com
                     </a>
                   </div>
                 </div>
