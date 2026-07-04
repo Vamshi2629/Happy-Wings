@@ -37,8 +37,9 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>🍗 Happy Wings — The Joy of Crispy Fried Chicken | Siddipet</title>
-        <meta name="description" content="Happy Wings serves the crispiest, juiciest fried chicken in Siddipet. Explore our famous wings, burgers, and Happy Box combos." />
+        <title>Happy Wings | Best Crispy Fried Chicken & Burgers in Siddipet</title>
+        <meta name="description" content="Craving the best crispy fried chicken in Siddipet? Happy Wings serves premium wings, spicy chicken burgers, and combos. Visit us or order online today!" />
+        <meta name="keywords" content="Happy Wings, fried chicken Siddipet, best chicken wings, crispy fried chicken, Siddipet restaurants, Zomato Siddipet, fast food, chicken burgers" />
       </Helmet>
 
       <HeroSection heroImg={heroImg} appLogo={appLogo} />
