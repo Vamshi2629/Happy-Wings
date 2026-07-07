@@ -200,7 +200,7 @@ export default function Contact() {
                   </a>
                   <a
                     href="tel:8121667040"
-                    className="flex items-center justify-center gap-2 bg-brand-red/10 border border-brand-red/30 rounded-full px-4 py-2.5 text-brand-red text-sm hover:bg-brand-red/20 transition-all font-medium"
+                    className="flex items-center justify-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-full px-4 py-2.5 text-blue-400 text-sm hover:bg-blue-500/20 transition-all font-medium"
                   >
                     <FaPhoneAlt /> Call
                   </a>
@@ -232,25 +232,25 @@ export default function Contact() {
               </div>
             </motion.div>
 
-             {/* Google Maps */}
-             <motion.div
-               initial={{ opacity: 0, x: 30 }}
-               whileInView={{ opacity: 1, x: 0 }}
-               viewport={{ once: true }}
-               transition={{ duration: 0.7, delay: 0.2 }}
-               className="w-full lg:w-1/2 rounded-2xl overflow-hidden border border-brand-dark-border h-[400px] lg:h-auto min-h-[400px]"
-             >
-                <iframe
-                  title="Happy Wings Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4666.769040701011!2d78.8555708!3d18.086557499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcc93e5674b9ce9%3A0x8d575f65c784715d!2sHappy%20Wings!5e1!3m2!1sen!2sin!4v1783093216337!5m2!1sen!2sin"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg) brightness(0.9) contrast(1.1)' }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
-             </motion.div>
+            {/* Google Maps */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              className="w-full lg:w-1/2 rounded-2xl overflow-hidden border border-brand-dark-border h-[400px] lg:h-auto min-h-[400px]"
+            >
+              <iframe
+                title="Happy Wings Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4666.769040701011!2d78.8555708!3d18.086557499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcc93e5674b9ce9%3A0x8d575f65c784715d!2sHappy%20Wings!5e1!3m2!1sen!2sin!4v1783093216337!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg) brightness(0.9) contrast(1.1)' }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </motion.div>
           </div>
         </div>
       </section>

@@ -61,10 +61,10 @@ export default function HappyBoxSection({ image, items }) {
               </ul>
 
               <div className="flex items-center gap-4 mb-6">
-                <span className="font-heading text-5xl text-brand-yellow">₹135</span>
+                <span className="font-heading text-5xl text-brand-yellow">₹169</span>
                 <div className="flex flex-col">
-                  <span className="text-brand-gray line-through">₹169</span>
-                  <span className="badge-spicy text-xs">Save ₹34!</span>
+                  {/* <span className="text-brand-gray line-through">₹169</span> */}
+                  {/* <span className="badge-spicy text-xs">Save ₹34!</span> */}
                 </div>
               </div>
 
